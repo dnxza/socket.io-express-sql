@@ -1,0 +1,33 @@
+{
+  "name": "socket.io-express-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ratthee Jar. <ratthee.jar@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "admin-lte": "^2.4.8",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "tedious": "^2.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      ".*/*",
+      "public/*",
+      "node_modules/*"
+    ]
+  }
+}
